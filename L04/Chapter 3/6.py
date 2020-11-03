@@ -1,0 +1,10 @@
+def main():
+    print("This is a program to calculate the slope of a plane")
+    x1 = float(input("Please enter the coordinates for x1: "))
+    x2 = float(input("Please enter the coordinates for x2: "))
+    y1 = float(input("Please enter the coordinates for y1: "))
+    y2 = float(input("Please enter the coordinates for y2: "))
+    slope = (y2 - y1) / (x2 - x1)
+    print("The slope of the plane is: ", slope)
+    eval(input("Press any key to exit the program"))
+main()
